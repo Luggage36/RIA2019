@@ -1,0 +1,180 @@
+* {
+	padding:0;
+	margin:0;
+}
+
+body {
+	margin-top:40px;
+	margin-bottom:40px;
+}
+
+header {
+
+	width:100%;
+	padding:5px;
+	height:30px;
+	background-color: #000;
+	color: #fff;
+
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:25px;
+
+	position:fixed;
+	top:0px;
+	left:0px;
+
+	text-align:center;
+}
+
+footer {
+	width:100%;
+	padding:5px;
+	height:20px;
+	background-color: #ddd;
+	color: #000;
+
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:15px;
+
+	position:fixed;
+	bottom:0px;
+	left:0px;
+
+	text-align:center;
+	z-index:1;
+}
+
+#commentscontainer {
+	width:100%;
+	padding:5px;
+	height:460px;
+	background-color: #000;
+	color: #fff;
+
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+	font-size:15px;
+
+	position:fixed;
+	bottom:-400px;
+	left:0px;
+
+	text-align:center;
+	z-index:0;
+}
+
+main {
+	width:100%;
+	padding:5px;
+
+	font-family: Calibri, Helvetica, Arial, sans-serif;
+
+	text-align:center;
+}
+
+.big {
+	font-size:40px;
+	margin:75px;
+}
+
+form input {
+
+	height:40px;
+	margin:25px;
+	padding:2px;
+
+}
+
+#loading {
+
+	display:none;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-top:-200px;
+	margin-left: 225px;
+}
+
+.subrow {
+
+	width: 90%;
+	margin:0 auto;
+	background-color:#efefef;
+	border-bottom:1px #ccc solid;
+	font-size:75px;
+	min-height:200px;
+}
+
+.subrow .sublinkbar {
+
+	font-size:25px;
+	padding:10px;
+
+}
+
+#messages {
+	min-height:75px;
+}
+
+.rssitem {
+	width: 90%;
+	margin:0 auto;
+	background-color:#efefef;
+	border-bottom:1px #ccc solid;
+	font-size:20px;
+	min-height:200px;
+}
+
+#comcontent {
+	background-color: #fff;
+	width:90%;
+	height:300px;
+	margin:20px auto;
+	color:#000;
+	overflow: scroll;
+}
+
+.comment {
+	background-color:#eef;
+	width:90%;
+	margin:0 auto;
+	padding:5px;
+	border-bottom:1px #ccc solid;
+}
+
+.comdate {
+	font-style: italic;
+	font-size:80%;
+	width:90%;
+	margin:0 auto;
+	padding:0 5px;
+	background-color:#dde;
+}
+
+.comlinks {
+	font-size:90%;
+	width:90%;
+	margin:0 auto;
+	padding:0 5px;
+	background-color:#dde;
+}
+
+#commentbox {
+	width:80%;
+	position:relative;
+	bottom:0;
+	height:50px;
+	padding: 5px;
+}
+
+#commentbtn {
+	width:10%;
+	position:relative;
+	bottom:35px;
+}
+
+#clearbtn {
+	width:10%;
+	position:relative;
+	bottom:25px;
+	left:40.5%;
+}
